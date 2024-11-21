@@ -1,6 +1,6 @@
 "use client"
 import { useAppDispatch, useAppSelector } from '@/store'
-import { addOne, initCounterState, resetCount, substractOne } from '@/store/counter/counterSlice';
+import { addOne, initCounterState, substractOne } from '@/store/counter/counterSlice';
 import { useEffect } from 'react';
 
 export interface CounterResponse {

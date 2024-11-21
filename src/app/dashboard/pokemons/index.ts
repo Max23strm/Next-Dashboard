@@ -3,3 +3,4 @@ export type { CompletePokemonResponse, CustomPokemonResponse } from './interface
 export type { SimplePokemon } from './interfaces/simple-pokemon'
 export { PokemonGrid } from './components/PokemonGrid'
 export { PokemonCard } from './components/PokemonCard'
+export { FavouritePokemons } from './components/FavouritePokemons'
